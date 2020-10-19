@@ -1,0 +1,184 @@
+.container{
+   box-sizing: border-box;
+   position : relative;
+   margin-left: auto;
+   margin-right: auto;
+   padding-top: 70px;
+   width: 1440px;
+   height: 800px;
+   font-family: 'Spartan';
+   font-size: 15px;
+}
+/* J'ai récuperer les dimensions des SVG en examinant l'element */
+.bgTop{
+   position: absolute;
+   top: 0;
+   left: 0;
+   background-image: url(images/bg-pattern-top-desktop.svg);
+   width: 584px;
+   height: 362px;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.bgBottom{
+   position: absolute;
+   bottom: 0px;
+   right: 0px;
+   background-image: url(images/bg-pattern-bottom-desktop.svg);
+   width: 1085px;
+   height: 673px;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.titre{
+   color: hsl(300, 43%, 22%);
+   font-size: 45px;
+   width: 430px;
+   line-height: 55px;
+   margin-bottom: 0;
+   margin-left: 165px;
+}
+.intro{
+   margin-left: 165px;
+   margin-top: 5px;
+   width: 450px;
+   line-height: 30px;
+   color :hsl(303, 10%, 53%);
+}
+
+/* Les votes sur le coté droit */
+
+.rates{
+   width: 40%;
+   position: absolute;
+   top: 120px;
+   left: 710px;
+   font-weight: 700;
+   color: hsl(300, 43%, 22%);
+}
+.rateModel{
+   box-sizing: border-box;
+   background-color : hsl(300, 24%, 96%);
+   position: absolute;
+   border-radius: 10px;
+   width: 445px;
+   height: 55px;
+   display: flex;
+   justify-content: center;
+}
+.textRate{
+   align-self: center;
+}
+.reviews{
+   align-self: center;
+}
+.reportGuru{
+   
+   top : 75px;
+   left: 10%;
+}
+.bestTech{
+   left: 20%;
+   top : 150px;
+}
+.stars{
+   display: flex;
+   margin-right: 30px;
+}
+.star{
+   align-self: center;
+   background-image: url(images/icon-star.svg);
+   width: 20px;
+   height: 20px;
+   background-size: cover;
+   margin-right: 10px;
+}
+
+
+
+/* Les cartes */
+
+.cards{
+   position: relative; 
+   margin-top : 50px; 
+   margin-left: 165px; 
+}
+.cardModel{
+   background-color: hsl(300, 43%, 22%);
+   position : absolute;
+   width: 350px;
+   height: 234px;
+   border-radius: 10px;
+}
+/* Positionnement des cartes */
+.card1{
+   /* a l'origine du container cards */
+}
+.card2{
+   top : 15px;
+   left : 380px;
+}
+.card3{
+   top : 30px;
+   left : 760px;
+}
+
+/* Contenus des cartes */
+
+.identity{
+   /* position : relative; */
+   margin : 20px;
+   display: flex;
+   height: 50px;
+}
+.identity p {
+   font-weight: 600;
+   margin: 0;
+   margin-left: 15px ;
+   padding: 0;
+   line-height: 25px;
+
+}
+.photo{
+   /* margin: 20px; */
+   width: 45px;
+   height: 45px;
+   background-color: lawngreen;
+   align-self: center;
+   background-size: cover;
+   border-radius: 50%;
+}
+.person{
+   display: flex;
+   flex-direction: column;
+   align-self: center;
+}
+.name{
+   color : white
+}
+.status{
+   color : hsl(333, 80%, 67%);
+   font-weight: 400;
+}
+.textIdentity{
+   margin: 20px;
+   color : white;
+   line-height: 25px;
+}
+
+/* Reference Photos des personnes*/
+
+.photo1{
+   background-image: url(images/image-colton.jpg);
+}
+.photo2{
+   background-image: url(images/image-irene.jpg);
+}
+.photo3{
+   background-image: url(images/image-anne.jpg);
+}
+
+
+
+
+
